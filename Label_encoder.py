@@ -1,3 +1,10 @@
+"""
+this script has been created to handle  the categorial  data.
+encoder function :- Label Encoding is a popular encoding technique for handling categorical variables. 
+In this technique, each label is assigned a unique integer based on alphabetical ordering.
+reverse_encoding :- it will provide original label of a encoded value
+OneHotEncoder :- one hot encoding is a representation of categorical variables as binary vectors.
+"""
 import pandas as pd 
 import numpy as np
 def encoder(attribute):
