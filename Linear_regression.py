@@ -68,15 +68,8 @@ if __name__ == "__main__":
     
     thetas,costs =  Linear_regression(x,y)
     mean1 = mean(x)
-
-    dat = x
-   
-    
-
-"""
-plt.title("Cost Funtion J")
-plt.xlabel("number of iteration")
-plt.ylabel("cost funtion")
-plt.plot(costs)
-plt.show()
-"""
+    plt.title("Cost Funtion J")
+    plt.xlabel("number of iteration")
+    plt.ylabel("cost funtion")
+    plt.plot(costs)
+    plt.show()
